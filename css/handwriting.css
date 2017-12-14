@@ -1,0 +1,36 @@
+#canvas {
+  display: block;
+  margin: 0 auto;
+}
+.color_btn {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+.color_btn:nth-child(1) {
+  background: black;
+}
+.color_btn:nth-child(2) {
+  background: red;
+}
+.color_btn:nth-child(3) {
+  background: blue;
+}
+.color_btn:nth-child(4) {
+  background: green;
+}
+.color_btn:nth-child(5) {
+  background: yellow;
+}
+.color_btn:nth-child(6) {
+  background: darkcyan;
+}
+.color_shadow {
+  border: 2px solid burlywood;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#controller {
+  width: 800px;
+  margin: 20px auto;
+}
